@@ -1,0 +1,369 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@media screen and (max-width: 1100px) {
+  header .header__list {
+    gap: 50px;
+  }
+}
+@media screen and (max-width: 576px) {
+  header .header__list {
+    display: block;
+  }
+}
+@media screen and (max-width: 1056px) {
+  main .third__section {
+    margin-top: 100px;
+  }
+  .second__section .container .row {
+    gap: 50px;
+  }
+  .third__section .container .row {
+    gap: 50px;
+  }
+}
+.container {
+  max-width: 1105px;
+  padding: 0 90px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0.200000003px;
+  text-align: center;
+}
+a:hover {
+  color: #FA4A0C;
+}
+
+.header__list {
+  list-style-type: none;
+  display: flex;
+  gap: 94px;
+}
+
+.first__section {
+  background-image: url("../images/main1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #F6F6F6;
+}
+.first__section .container {
+  max-width: 1005px;
+  padding: 0;
+}
+.first__section .row__restaurant--app {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0.1000000015px;
+  text-align: center;
+  padding-top: 60px;
+}
+.first__section .row__restaurant_h1 {
+  max-width: 799px;
+  font-family: Poppins;
+  font-size: 58px;
+  font-weight: 700;
+  line-height: 80px;
+  letter-spacing: 0.200000003px;
+  text-align: center;
+}
+.first__section .row_span {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 38px;
+  letter-spacing: 0.200000003px;
+  text-align: center;
+  margin-bottom: 54px;
+}
+.first__section .delivery {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0.1000000015px;
+  padding: 16px 58px 16px 73px;
+  border-radius: 30px;
+  border: 1px solid white;
+  background-color: #FA4A0C;
+  max-width: 236px;
+}
+.first__section .menu {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0.1000000015px;
+  border-radius: 30px;
+  padding: 16px 76px;
+  border: 1px solid white;
+  max-width: 236px;
+}
+.first__section a {
+  color: #F6F6F6;
+}
+.first__section .bnt-block {
+  padding-bottom: 162px;
+  gap: 62px;
+}
+.first__section .bnt-block .col {
+  max-width: 276px;
+}
+
+.second__section .container {
+  max-width: 1105px;
+  padding: 0;
+}
+.second__section .text-center {
+  font-family: Poppins;
+  font-size: 44px;
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: 0.1000000015px;
+  text-align: left;
+}
+.second__section .telefon__img {
+  width: 250px;
+  height: 506px;
+  margin-top: 50px;
+}
+.second__section .info__text--first {
+  color: #FA4A0C;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0.1000000015px;
+  text-align: left;
+}
+.second__section .info__text--second {
+  font-family: Montserrat;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 57px;
+  letter-spacing: 0.200000003px;
+  text-align: left;
+}
+.second__section .info__text--third {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 38px;
+  letter-spacing: 0.200000003px;
+  text-align: left;
+}
+.second__section .info__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.second__section .row {
+  gap: 250px;
+}
+
+.third__section .container {
+  max-width: 1105px;
+  padding: 0;
+}
+.third__section .telefon__img {
+  width: 250px;
+  height: 506px;
+  margin-top: 50px;
+}
+.third__section .info__text--first {
+  color: #FA4A0C;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0.1000000015px;
+  text-align: left;
+}
+.third__section .info__text--second {
+  font-family: Montserrat;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 57px;
+  letter-spacing: 0.200000003px;
+  text-align: left;
+}
+.third__section .info__text--third {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 38px;
+  letter-spacing: 0.200000003px;
+  text-align: left;
+}
+.third__section .info__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.third__section .row {
+  gap: 250px;
+}
+
+.fourth__section {
+  background-image: url("../images/main2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #F6F6F6;
+}
+.fourth__section .container {
+  max-width: 1005px;
+  padding: 0;
+}
+.fourth__section .row__restaurant--app {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0.1000000015px;
+  text-align: center;
+  padding-top: 60px;
+}
+.fourth__section .row__restaurant_h1 {
+  max-width: 799px;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 57px;
+  letter-spacing: 0.200000003px;
+  text-align: center;
+  margin-top: 150px;
+}
+.fourth__section .row_span {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 38px;
+  letter-spacing: 0.200000003px;
+  text-align: center;
+}
+.fourth__section a {
+  color: #F6F6F6;
+}
+.fourth__section .bnt-block {
+  padding-bottom: 162px;
+  gap: 62px;
+}
+.fourth__section .bnt-block .col {
+  max-width: 276px;
+}
+.fourth__section .btn_block {
+  gap: 62px;
+  padding-bottom: 162px;
+}
+.fourth__section .btn_block col {
+  max-width: 276px;
+}
+.fourth__section .btn_Playstore {
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  text-decoration: none;
+  padding: 18px 31px;
+  color: rgb(255, 255, 255);
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0.200000003px;
+  text-align: left;
+  border-radius: 15px;
+  box-shadow: 0px 10px 30px 0px rgba(183, 50, 39, 0.2);
+  background: rgb(250, 74, 12);
+}
+.fourth__section .btn_delivery:hover {
+  color: white;
+}
+.fourth__section .btn_Appstore {
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  padding: 18px 45px;
+  text-decoration: none;
+  box-sizing: border-box;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 15px;
+  color: rgb(255, 255, 255);
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0.1px;
+  text-align: left;
+}
+.fourth__section .btn_menu:hover {
+  color: #ffffff;
+}
+
+footer {
+  margin-top: 100px;
+}
+footer .container {
+  max-width: 1210px;
+}
+footer .container .footer__text {
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0.1000000015px;
+  text-align: right;
+}
+
+.btn_block {
+  gap: 62px;
+  padding-bottom: 162px;
+}
+
+.btn_block col {
+  max-width: 276px;
+}
+
+.btn_delivery {
+  max-width: 236px;
+  text-decoration: none;
+  padding: 16px 58px 16px 73px;
+  color: rgb(255, 255, 255);
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0.1px;
+  text-align: left;
+  border-radius: 30px;
+  box-shadow: 0px 10px 30px 0px rgba(183, 50, 39, 0.2);
+  background: rgb(250, 74, 12);
+}
+
+.btn_delivery:hover {
+  color: white;
+}
+
+.btn_menu {
+  max-width: 236px;
+  padding: 16px 82px;
+  text-decoration: none;
+  box-sizing: border-box;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 30px;
+  color: rgb(255, 255, 255);
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0.1px;
+  text-align: left;
+}
+
+.btn_menu:hover {
+  color: #ffffff;
+}
